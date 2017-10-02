@@ -4,7 +4,7 @@ const app = express()
 
 // GET method route
 app.get('/', (req, resp) => {
-    resp.send('Hello')
+    resp.send('Hello World')
 
 })
 
